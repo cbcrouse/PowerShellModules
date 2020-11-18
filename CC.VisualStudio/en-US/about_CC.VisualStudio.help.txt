@@ -1,5 +1,5 @@
 PSTOPIC
-	about_VisualStudio
+	about_CC.VisualStudio
 
 SHORT DESCRIPTION
 	This is a PowerShell module that exposes the functionality of Visual Studio as well as several qualify of life operations through PowerShell functions.
@@ -16,4 +16,4 @@ DETAILED DESCRIPTION
 		Get-Project:          This function returns the object that represents a Visual Studio project.
 
 LINK
-	https://github.com/cbcrouse/PowerShellModules/VisualStudio/
+	https://github.com/cbcrouse/PowerShellModules/tree/main/CC.VisualStudio
