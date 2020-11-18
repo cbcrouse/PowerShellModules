@@ -1,0 +1,19 @@
+PSTOPIC
+	about_VisualStudio
+
+SHORT DESCRIPTION
+	This is a PowerShell module that exposes the functionality of Visual Studio as well as several qualify of life operations through PowerShell functions.
+
+LONG DESCRIPTION
+	Visual Studio has a $dte variable that is accessible through the Package Manager Console (a PowerShell friendly console that lives in Visual Studio).
+	Visual Studio functionality is able to be exposed through this $dte object, such as customizing options or setting NuGet sources.
+	With the $dte object, we can also do things like restarting a visual studio solution or unloading and reloading projects (these would be considered quality of life functions).
+
+DETAILED DESCRIPTION
+	There are a few functions:
+		Restart-Solution:     This function closes the currently open solution and re-opens it.
+		Get-SolutionName:     This function returns the name of the currently open solution.
+		Get-Project:          This function returns the object that represents a Visual Studio project.
+
+LINK
+	https://github.com/cbcrouse/PowerShellModules/VisualStudio/
